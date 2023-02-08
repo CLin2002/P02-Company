@@ -256,17 +256,17 @@
                     <p>Lorem Ipsum</p>
                     <h4>Sample Code</h4>
                     <code>
-                        &lt;h1&gt;Heading 1&lt;h1&gt; 
+                        &lt;h1&gt;Heading 1&lt;/h1&gt; 
                         <br>
-                        &lt;h2&gt;Heading 2&lt;h2&gt;
+                        &lt;h2&gt;Heading 2&lt;/h2&gt;
                         <br>
-                        &lt;h3&gt;Heading 3&lt;h3&gt;
+                        &lt;h3&gt;Heading 3&lt;/h3&gt;
                         <br>
-                        &lt;h4&gt;Heading 4&lt;h4&gt;
+                        &lt;h4&gt;Heading 4&lt;/h4&gt;
                         <br>
-                        &lt;h5&gt;Heading 5&lt;h5&gt;
+                        &lt;h5&gt;Heading 5&lt;/h5&gt;
                         <br>
-                        &lt;h6&gt;Heading 6&lt;h6&gt;
+                        &lt;h6&gt;Heading 6&lt;/h6&gt;
                     </code>
                 </div>
 
@@ -285,7 +285,7 @@
                 </div>
             </div>
             
-            <h3>Checkout Cart</h2>
+            <h3>Payment Form</h2>
                 <div class="flex-container">
     
                     <!-- Description -->
@@ -294,7 +294,16 @@
                         <p>Lorem Ipsum</p>
                         <h4>Sample Code</h4>
                         <code>
-
+                            &lt;input type="radio" id="delivery" name="deliveryop" value="deliveryoption"&gt;<br>
+                            &lt;label for="delivery"&gt;Delivery&lt;/label&gt;<br>
+                            &lt;input type="radio" id="pickup" name="deliveryop" value="deliveryoption"&gt;<br>
+                            &lt;label for="pickup"&gt;Pick-up&lt;/label&gt;<br>
+                            &lt;label for="payment_info"&gt;Name On Card&lt;/label&gt;<br>
+                            &lt;input type="text" id="card_name" name="card_name" class="input-text"&gt;<br>
+                            &lt;label for="payment_info"&gt;Card Number&lt;/label&gt;<br>
+                            &lt;input type="text" id="card_number" name="card_number" class="input-text"&gt;<br>
+                            &lt;label for="payment_info"&gt;CVC&lt;/label&gt;<br>
+                            &lt;input type="text" id="cvc" name="cvc" class="input-text"&gt;<br>
                         </code>
                     </div>
     
@@ -303,14 +312,14 @@
                         <div class="top-border">
                             <h4 href>The rendered item goes here</h4>
                             <input type="radio" id="delivery" name="deliveryop" value="deliveryoption">
-                            <label for="cheese">Delivery</label>
+                            <label for="delivery">Delivery</label>
                             <input type="radio" id="pickup" name="deliveryop" value="deliveryoption">
-                            <label for="cheese">Pick-up</label><br>
-                            <label for="card_number">Name On Card</label><br>
-                            <input type="text" id="cardnname" name="cardnname" class="input-text"><br>
-                            <label for="card_number">Card Number</label><br>
-                            <input type="text" id="cardnumber" name="cardnumber" class="input-text"><br>
-                            <label for="card_number">CVC</label><br>
+                            <label for="pickup">Pick-up</label><br>
+                            <label for="payment_info">Name On Card</label><br>
+                            <input type="text" id="card_name" name="card_name" class="input-text"><br>
+                            <label for="payment_info">Card Number</label><br>
+                            <input type="text" id="card_number" name="card_number" class="input-text"><br>
+                            <label for="payment_info">CVC</label><br>
                             <input type="text" id="cvc" name="cvc" class="input-text"><br>
                             <input type="submit" class="button-yellow">
                         </div>
